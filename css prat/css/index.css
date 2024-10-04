@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    border: 2px solid #0000ff;
+    padding: 2px;
+    margin: 10px;
+}
+
+h2{
+    text-align: left;
+    border: 2px solid #ff0000;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+h3{
+    text-align: right;
+    border: 2px solid #ffff00;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+.borda{
+    border: 3px solid #0000ff;
+    margin: 5px;
+    height: 20px;
+    padding: 5px;
+}

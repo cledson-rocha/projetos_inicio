@@ -1,0 +1,50 @@
+.box{
+    text-align: center;
+    background-color: rgb(76, 202, 160);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    margin-left: 500px;
+    width:45%;
+}
+
+img{
+    width:45%;
+    height: 300px;
+    margin-left: 500px;
+}
+
+.text-center{
+    text-align: justify;
+    margin-left: 500px;
+    width: 45%;
+    
+}
+
+.h1{
+    text-align: center solid white;
+}
+
+.cl{
+    text-align: center;
+    background-color: rgb(69, 218, 168);
+    color: black;
+    padding: 2px;
+    margin-left: 500px;
+    width: 45%;
+    border: 2px solid;
+}
+.text-c{
+    margin-left: 500px;
+    width: 45%;
+}
+h3{
+    margin-left: 500px;
+    width: 45%;
+}
+
+p{
+    margin-left: 500px;
+    width: 45%;
+}
