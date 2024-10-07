@@ -1,0 +1,51 @@
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+body{
+    background-color: rgb(51, 19, 59);
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+input[type="text"],input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(238, 133, 233);
+}
+

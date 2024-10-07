@@ -1,0 +1,29 @@
+form{
+    width: 300;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+body{
+    background-color: rgb(103, 61, 143);
+}
+
+label{
+display: block;
+margin-bottom: 5px;
+color: white;
+font-size: 20px;
+
+}
+input[type="text"]{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    
+
+    
+    
+}
