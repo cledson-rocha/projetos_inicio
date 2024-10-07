@@ -1,50 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
 
-.box-menu{
+.box-menu {
     text-align: center;
     margin: 10px;
-}
-
-li{
-
-display: inline-block;
-
-}
-
-.n-box{
     height: 50px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.body-div{
-    
-    margin-left: 150px;
+li {
+
+    display: inline-block;
 
 }
 
-ul{
+span {
+    color: white;
+}
+
+
+
+.body-div {
+
+    margin-left: 300px;
+    width: 62%;
+}
+
+ul {
     border-radius: 10px;
-     margin-top: 20px;
+    margin-top: 20px;
 }
 
-.im{
-    
-    background-color: orange;
+.im {
+
+    background-color: rgb(207, 136, 2);
     border-radius: 10px;
-    width:63%;
-    margin-left: 150px;
-    
-    
+    width: 63%;
+    margin-left: 300px;
+
+
 
 }
 
-li a:hover{
+li a:hover {
     transition: 1s;
     color: chocolate;
     background: rgb(63, 60, 60);
@@ -53,7 +54,7 @@ li a:hover{
     padding: 12px;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -63,19 +64,25 @@ li a{
     padding: 10px 15px;
 }
 
-li{
+li {
     margin-top: 15px;
 }
 
-.div-b{
+.div-b {
     background-color: orange;
     border-radius: 10px;
-    width:63%;
-    margin-left: 150px;
-    
+    width: 63%;
+    margin-left: 300px;
+
 
 }
 
-
-
-
+footer {
+    color: rgb(148, 96, 0);
+    background: rgb(255, 195, 85);
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    width: 62%;
+    margin-left: 300px;
+}
