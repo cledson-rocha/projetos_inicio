@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.logo{
+    width: 140px;
+    height: 100px;
+    display: flex;
+    margin-right: 1200px;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+}
+
+nav li{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+
+span{
+    color: rgb(238, 173, 53);
+}
+
+body{
+    background-image: url(https://blog.archtrends.com/wp-content/uploads/2022/10/casas-modernas-1200x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_center{
+    text-align: center;
+    
+    
+   
+}
+h1{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    height: 80px;
+    font-size: 80px;
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    height: 200px;
+    font-size: 25px;
+    
+    
+}
+
+h4{
+    height: 17px;
+    width: 120px;
+    margin-left: 870px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 13px;
+    color: white;
+}
