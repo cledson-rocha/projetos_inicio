@@ -5,15 +5,19 @@
 header{
     background-color: white;
     display: flex;
-    padding: 15px;
+    padding: 8px;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+    border-radius: 15px;
+    width: 1850px;
+    margin-left: 18px;
+    margin-top: 30px;
 
 }
 
 .logo{
-    width: 140px;
-    height: 100px;
+    width: 160px;
+    height: 120px;
     display: flex;
     margin-right: 1200px;
 }
@@ -24,7 +28,18 @@ display: flex;
 }
 
 nav li{
-    margin-left: 30px;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+li a:hover{ 
+    transition: 1s;
+    color: rgb(241, 159, 7);
+    background: rgb(15, 15, 15);
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 12px;
 }
 
 nav a{
