@@ -124,6 +124,7 @@
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .btn_1:hover {
@@ -143,6 +144,7 @@
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .btn_2:hover {
@@ -150,3 +152,24 @@
     color: black;
     border: 2px solid black;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black ;
+
+}
+
+.img-box img {
+    border-radius: 5%;
+    width: 300px;
+}
+
+/*===== Section Sobre =====*/
+
