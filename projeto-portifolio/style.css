@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*=====Menu - Barra Navegação=====*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12px;
+    background: black;
+    backdrop-filter: blur (10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: orange;
+    font-weight: 800;
+    transition: 0.3s ease; 
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.cor-logo {
+    color: orangered;
+}
+
+.cor_1{
+    color: orangered;
+}
+
+.cor_2{
+    color: orange;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.contact {
+    padding: 10px 20px;
+    background: orangered;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: orange;
+    box-shadow: 0 0 25px;
+    color: white;
+}
+
+/*===== Section main =====*/
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.main-content {
+    max-width: 800px;
+}
+
+.main-content h3 {
+    font-size: 40px;
+}
+
+.main-content h2 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+    text-align: justify;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn_1 {
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn_1:hover {
+    background-color: orangered;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn_2 {
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn_2:hover {
+    background-color: orangered;
+    color: black;
+    border: 2px solid black;
+}
