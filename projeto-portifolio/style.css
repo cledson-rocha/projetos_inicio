@@ -267,6 +267,7 @@ border: 0;
     width: 100%;
     padding: 40px 0;
     background-color: black;
+    text-align: center;
 
 
 }
@@ -320,11 +321,8 @@ border: 0;
 
 }
 
-.footer .list li {
+.list li {
     display: inline-block;
-    color: white;
-    text-align: center;
-    margin-left: 260px;
-
+    
 }
 
