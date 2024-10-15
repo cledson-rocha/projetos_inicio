@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*=====Menu navegação =====*/
+
+.header {
+    
+    display: flex;
+    position: fixed;
+    
+} 
+
+
+.logo{
+font-size: 25px;
+color: black;
+font-weight: 800;
+transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.cor-logo{  
+   color: orangered;
+}
+
+.ul{
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+/*===== sobre =====*/
+
+
+.sobre {
+    justify-content: space-between;
+}
+
+.sobre h3{
+    color: orangered;
+    margin-top: 200px;
+    padding: 10px;
+    margin-left: 120px;
+    max-width: 70%;
+    
+}
+
+.sobre h4 {
+    font-size: 70px;
+    margin-left: 120px;
+    max-width: 30%;
+  }
+
+.text_p{
+    margin-left: 120px;
+    max-width: 30%;
+}
+
+
+
+
+
+
