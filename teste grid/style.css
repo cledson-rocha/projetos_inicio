@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    /* grid-pemplate-columns gera 3 colunas iguais*/
+    grid-template-columns: repeat(3,1fr);
+    /* gap gera um espaçamento entre imagens*/
+    gap: 10px;
+}
+
+.grid-item {
+    width: 100%;
+    height: 300px;
+    margin-left: 80px;
+    
+}
+
+.grid-container p {
+    color: red;
+    text-align: justify;
+    width: 270px;
+}
+
+img {
+    width: 300px;
+    
+}
+
+.grid-container p {
+    text-align: justify;
+    width: 300px;
+}
