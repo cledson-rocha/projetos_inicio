@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    color: #000;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container1 {  
+   
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+.container2 {  
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+section.module p {
+margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module_content {
+    padding: 40px 0;
+    background-color: #ece7d5;
+    
+}
+
+.module_content h2 {
+    margin-left: 40px;
+}
+
+.module_content p {
+    margin-left: 80px;
+    text-align: justify;
+    
+}
+
+.module_content img {
+    margin-left: 90%;
+
+}
+
+
+section.module.parallax {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh !important;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+
+
+section.module.parallax-1 {
+    background-image: url(https://diaonline.ig.com.br/wp-content/uploads/2018/10/11-barbearias-em-goiania-com-estilo-vintage-que-voce-precisa-conhecer.jpeg);
+}
+
+section.module.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-2 {
+    background-image: url(https://st2.depositphotos.com/1001951/7784/i/450/depositphotos_77841652-stock-photo-hairstylist-applying-after-shaving-lotion.jpg)
+}
+section.module.parallax-3 {
+    background-image: url(https://st2.depositphotos.com/2931363/10695/i/450/depositphotos_106959464-stock-photo-young-bearded-man-with-hairdresser.jpg)
+}
+
+section.module.parallax h1 {
+    color: white;
+    margin-left: 60%;
+    font-size: 50px;
+    z-index: 50;
+    
+}
+
+
+.text-1 {
+    color: white;
+    max-width: 30%;
+    margin-left: 60%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* GRID*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 110px ;
+    margin-left: -20%;
+    
+}
+
+.grid-item {
+    width: 100%;
+    height: 230px;
+    margin-left: 30px;
+    
+}
+
+.grid-container p {
+    color: rgb(19, 16, 16);
+    text-align: justify;
+    width: 270px;
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    
+}
+
+.grid-container p {
+    text-align: justify;
+    width: 300px;
+    margin-left: 10%;
+}
+
+.servicos1 {
+    text-align: center;
+}
