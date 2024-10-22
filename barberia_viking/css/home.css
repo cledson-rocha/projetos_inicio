@@ -169,13 +169,13 @@ section.module.parallax h1 {
     grid-template-columns: repeat(3,1fr);
     gap: 110px ;
     margin-left: -20%;
-    
+    margin-bottom: 70px;
 }
 
 .grid-item {
     width: 100%;
-    height: 230px;
-    margin-left: 30px;
+    height: 300px;
+    margin-left: px;
     
 }
 
@@ -194,13 +194,15 @@ img {
 .grid img:hover {
     transform: scale(1.1);
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .grid-container p {
     text-align: justify;
     width: 300px;
-    margin-left: 10%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px 20px 0px;
+    margin-left: 0px;
+    font-family: Consolas,monospace!important;
 }
 
 .servicos1 {
@@ -208,5 +210,5 @@ img {
 }
 
 .span_servicos {
-    color: rgb(160, 160, 133) ;
+    color:rgb(160, 160, 133) ;
 }

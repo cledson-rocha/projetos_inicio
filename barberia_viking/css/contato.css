@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4eb8a;
+}
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 81px;
+}
+.forms h1{
+    margin-top: 100px;
+    padding-bottom: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.forms .forms_info{
+    display: flex;
+    flex-direction: column;
+}
+.forms .forms_info label{
+    text-align: start;
+}
+.forms .forms_info input{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    width: 403px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.forms .forms_message{
+    display: flex;
+    flex-direction: column;
+}
+.forms .forms_message label{
+    text-align: start;
+}
+.forms .forms_message textarea{
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.forms .btn input{
+    margin: 20px;
+    width: 203px;
+    height: 50px;
+    color: #f4eb8a;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+}
+.forms .btn input:hover{
+    background-color: white;
+    border: 1px solid #2b2b2b;
+    color: #2b2b2b;
+    transition: all 0.5s ease;
+    transform: scale(1.1)translateY(-3px);
+}
