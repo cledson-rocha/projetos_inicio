@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #a7a5a5;
+    background-color: #f1efef;
 
 }
 
@@ -33,7 +33,7 @@ header {
  }
 
  header .logo img {
-    width: 150px;
+    width: 250px;
 }
 
 header .menu-desktop nav ul li{
@@ -43,7 +43,7 @@ header .menu-desktop nav ul li{
 
 header .menu-desktop nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(100, 80, 44);
     transition: 0.2s;
     display: inline-block;
 }
@@ -115,4 +115,89 @@ section.main-site {
     width: 220px;
     height: 60px;
     font-size: 20px;
+}
+
+/* Estilização vantagens*/
+section.vantagens {
+    padding: 80px 0;
+}
+
+.vantagens .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+    text-align: justify;
+
+}
+
+.vantagens .itens-container .img-itens img{
+    
+    width: 600px;
+    height: 350px;
+}
+
+
+
+.vantagens .itens-container .text-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.itens-container .text-itens h3 span {
+    font-weight: lighter;
+}
+
+
+
+/* estilização botão contato*/
+section.contato {
+    background-color:rgb(241, 184, 77);
+    padding: 80px 0;
+}
+
+.text-contato, .icons-contato {
+display: inline-block;
+width: 50%;
+margin-left: -6px;
+vertical-align: middle;
+color: white;
+}
+
+.contato .text-contato h3 {
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.contato .text-contato h3 span{
+    display: block;
+    font-weight: 600;
+}
+
+.contato .icons-contato a {
+    text-decoration: none;
+    
+}
+.contato .icons-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    font-size: 18px;
+}
+
+.contato .icons-contato button:hover {
+    background-color: white;
+    color: black;
 }
