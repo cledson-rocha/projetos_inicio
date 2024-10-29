@@ -6,10 +6,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+/*body {
     background-color: #f1efef;
 
-}
+}*/
 
 /* Estilização container */
 .container {
@@ -17,6 +17,13 @@ body {
     margin: 0 auto;
 
 }
+
+/* Estilização MENU dinâmico*/
+header .logo img.logo-preta{
+    
+}
+/* Finalização*/
+
 
 header {
     width: 100%;
@@ -201,3 +208,167 @@ color: white;
     background-color: white;
     color: black;
 }
+
+/* Estilização hotéis*/
+.hoteis {
+    height: 600px;
+    background-image: url(https://voyageursintrepides.com/wp-content/uploads/2022/05/ou-dormir-cancun-quartier-hotel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+
+.hoteis > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hoteis > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.hoteis h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.hoteis p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hoteis h3 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 200;
+}
+
+.hoteis button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 220px;
+    height: 60px;
+
+}
+
+.hoteis button:hover {
+    background-color:white;
+    color: black;
+
+}
+
+/* estilização Como-viajar*/
+section.como-funciona {
+    padding: 80px 0;
+
+}
+
+.text-funciona, .instrucoes {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.como-funciona .text-funciona {
+    position: sticky;
+    top: 50%;
+    padding-bottom: 20px;
+}
+
+.como-funciona .text-funciona h3 {
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: 200;
+
+}
+
+.como-funciona .text-funciona h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.instrucoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.instrucoes .instru-box img {
+    width: 100%;
+}
+
+.instrucoes .instru-box h4 span {
+    font-weight: 200;
+
+}
+
+.instrucoes .instru-box h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+/* Estilização Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+footer .top-footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+footer .middle-footer {
+    margin: 20px 0;
+}
+
+footer .middle-footer a {
+    color: white;
+    margin: 0 15px;
+}
+
+footer .bottom-footer {
+    border-top: 2px solid white;
+}
+
+footer .bottom-footer p {
+    color: white;
+    margin-top: 10px;
+}
+
