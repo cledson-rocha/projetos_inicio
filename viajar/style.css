@@ -20,14 +20,41 @@
 
 /* Estilização MENU dinâmico*/
 header .logo img.logo-preta{
-    
+    display: none;
+}
+
+header.rolar {
+    background-color: white;
+    padding: 20px 0;
+}
+
+header.rolar .menu-desktop nav ul li a {
+    color: #000;
+}
+
+header.rolar .btn-contato button {
+    border: 1px solid black;
+    color: #000;
+}
+
+header.rolar .btn-contato button:hover {
+    background-color: #000;
+    color: white;
+}
+
+header.rolar .logo .logo-branca {
+    display: none;
+}
+
+header.rolar .logo .logo-preta {
+    display: block;
 }
 /* Finalização*/
 
 
 header {
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -40,7 +67,7 @@ header {
  }
 
  header .logo img {
-    width: 250px;
+    width: 150px;
 }
 
 header .menu-desktop nav ul li{
@@ -50,7 +77,7 @@ header .menu-desktop nav ul li{
 
 header .menu-desktop nav ul li a {
     text-decoration: none;
-    color: rgb(100, 80, 44);
+    color: #df501c;
     transition: 0.2s;
     display: inline-block;
 }
@@ -63,16 +90,16 @@ header .btn-contato button {
 header .btn-contato button, .main-site button {
     font-size: 18px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #df501c;
+    color: #df501c;
     cursor: pointer;
     transition: 0.5s;
 }
 
 header .btn-contato button:hover,
 .main-site button:hover {
-    background-color: white;
-    color: black;
+    background-color:black;
+    color: white;
 }
 
 .menu-desktop nav a:hover {
